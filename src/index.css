@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  font-family:'montserrat',sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+@font-face {
+  font-family:'Montserrat-Light';
+  src:url('./Fonts/montserrat/Montserrat-Light.otf');
+}
+
+@font-face {
+  font-family:'Montserrat-Bold';
+  src:url('./Fonts/montserrat/Montserrat-Bold.otf');
+}
+@font-face {
+  font-family:'Montserrat-Thin';
+  src:url('./Fonts/montserrat/Montserrat-Thin.otf');
+}
+@font-face {
+  font-family:'Montserrat-Regular';
+  src:url('./Fonts/montserrat/Montserrat-Regular.otf');
+}
+@font-face {
+  font-family:'Montserrat-Medium';
+  src:url('./Fonts/montserrat/Montserrat-Medium.otf');
+}
+
+/*Prefectura*/
+
+@font-face {
+  font-family:'Prefectura';
+  src:url('./Fonts/PrefecturaFont/Prefectura.otf');
+}
+@import '/src/Fonts/fonts.scss';
